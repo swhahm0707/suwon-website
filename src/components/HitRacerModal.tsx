@@ -105,7 +105,7 @@ export default function HitRacerModal({ onClose }: HitRacerModalProps) {
               referrerPolicy="no-referrer"
             />
             <img
-              src="/icon_g/icon_substanceP.png"
+              src="/icon_g/icon_substance_painter.png"
               alt="Substance Painter"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
@@ -178,11 +178,11 @@ export default function HitRacerModal({ onClose }: HitRacerModalProps) {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { id: "emma", name: "EMMA AVATAR", src: "/hitracer_g/HitRacer_EmmaAvatar.jpg" },
-              { id: "tony", name: "TONY AVATER", src: "/hitracer_g/HitRacer_TonyAvatar.jpg" },
-              { id: "student", name: "STUDENT B", src: "/hitracer_g/HitRacer_StudentB.jpg" },
-              { id: "jack", name: "JACK AVATAER", src: "/hitracer_g/HitRacer_JackAvatar.jpg" },
-              { id: "extra", name: "EXTRA AVATAR M_A", src: "/hitracer_g/HitRacer_ExAvatarM_A.jpg" }
+              { id: "emma", name: "EMMA AVATAR", src: "/hitracer_g/hitracer_emma_avatar.jpg" },
+              { id: "tony", name: "TONY AVATER", src: "/hitracer_g/hitracer_tony_avatar.jpg" },
+              { id: "student", name: "STUDENT B", src: "/hitracer_g/hitracer_student_b.jpg" },
+              { id: "jack", name: "JACK AVATAER", src: "/hitracer_g/hitracer_jack_avatar.jpg" },
+              { id: "extra", name: "EXTRA AVATAR M_A", src: "/hitracer_g/hitracer_ex_avatar_m_a.jpg" }
             ].map((char) => (
               <div 
                 key={char.id} 
@@ -338,15 +338,15 @@ export default function HitRacerModal({ onClose }: HitRacerModalProps) {
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {[
-                  { name: "EMMA AVATAR FACIAL", src: "/hitracer_g/HitRacer_EmmaAvatar_facial.png" },
-                  { name: "TONY AVATER FACIAL", src: "/hitracer_g/HitRacer_TonyAvatar_facial.png" },
-                  { name: "KAI AVATAR FACIAL", src: "/hitracer_g/HitRacer_KaiAvatar_facial.png" },
-                  { name: "ELLIE FACIAL", src: "/hitracer_g/HitRacer_Ellie_facial.png" },
-                  { name: "SAM FACIAL", src: "/hitracer_g/HitRacer_Sam_facial.png" },
-                  { name: "ZIK FACIAL", src: "/hitracer_g/HitRacer_Zik_Facial.png" },
-                  { name: "JACK AVATAR FACIAL", src: "/hitracer_g/HitRacer_JackAvatar_Facial.jpg" },
-                  { name: "KAI FACIAL", src: "/hitracer_g/HitRacer_Kai_facial.png" },
-                  { name: "RINA FACIAL", src: "/hitracer_g/HitRacer_Rina_facial.png" }
+                  { name: "EMMA AVATAR FACIAL", src: "/hitracer_g/hitracer_emma_avatar_facial.png" },
+                  { name: "TONY AVATER FACIAL", src: "/hitracer_g/hitracer_tony_avatar_facial.png" },
+                  { name: "KAI AVATAR FACIAL", src: "/hitracer_g/hitracer_kai_avatar_facial.png" },
+                  { name: "ELLIE FACIAL", src: "/hitracer_g/hitracer_ellie_facial.png" },
+                  { name: "SAM FACIAL", src: "/hitracer_g/hitracer_sam_facial.png" },
+                  { name: "ZIK FACIAL", src: "/hitracer_g/hitracer_zik_facial.png" },
+                  { name: "JACK AVATAR FACIAL", src: "/hitracer_g/hitracer_jack_avatar_facial.jpg" },
+                  { name: "KAI FACIAL", src: "/hitracer_g/hitracer_kai_facial.png" },
+                  { name: "RINA FACIAL", src: "/hitracer_g/hitracer_rina_facial.png" }
                 ].map((sheet, idx) => (
                   <div 
                     key={idx} 

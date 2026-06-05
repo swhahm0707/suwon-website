@@ -153,7 +153,7 @@ export default function LaFranceTruckModal({ onClose }: LaFranceTruckModalProps)
             referrerPolicy="no-referrer"
           />
           <img
-            src="/icon_g/icon_substanceP.png"
+            src="/icon_g/icon_substance_painter.png"
             alt="Substance Painter"
             className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
             referrerPolicy="no-referrer"
@@ -235,12 +235,12 @@ export default function LaFranceTruckModal({ onClose }: LaFranceTruckModalProps)
           </div>
           <div className="flex gap-6 overflow-x-auto pb-6 scrollbar-thin scrollbar-thumb-[#839958]/40 scrollbar-track-transparent snap-x snap-mandatory pt-2">
             {[
-              "/firetruck_g/truck_modeling1.jpg",
-              "/firetruck_g/truck_modeling2.jpg",
-              "/firetruck_g/truck_modeling3.jpg",
-              "/firetruck_g/truck_modeling4.jpg",
-              "/firetruck_g/truck_modeling5.jpg",
-              "/firetruck_g/truck_modeling6.jpg",
+              "/firetruck_g/firetruck_modeling1.jpg",
+              "/firetruck_g/firetruck_modeling2.jpg",
+              "/firetruck_g/firetruck_modeling3.jpg",
+              "/firetruck_g/firetruck_modeling4.jpg",
+              "/firetruck_g/firetruck_modeling5.jpg",
+              "/firetruck_g/firetruck_modeling6.jpg",
             ].map((src, index) => (
               <div key={index} className="flex-shrink-0 w-[280px] sm:w-[340px] aspect-[4/3] snap-start bg-transparent rounded-lg shadow-md border border-[#0A3323]/10 flex items-center justify-center overflow-hidden">
                 <PortfolioImage
@@ -271,7 +271,7 @@ export default function LaFranceTruckModal({ onClose }: LaFranceTruckModalProps)
           </div>
           <div className="aspect-[4/3] rounded-lg overflow-hidden bg-transparent shadow-md border border-[#0A3323]/10 lg:order-1 flex items-center justify-center">
             <PortfolioImage
-              src="/firetruck_g/truck_uv.png"
+              src="/firetruck_g/firetruck_uv.png"
               alt="UV Mapping Flow"
               className="w-full h-full object-contain rounded animate-fade-in"
             />
@@ -295,8 +295,8 @@ export default function LaFranceTruckModal({ onClose }: LaFranceTruckModalProps)
           </div>
           <div className="flex gap-6 overflow-x-auto pb-6 scrollbar-thin scrollbar-thumb-[#839958]/40 scrollbar-track-transparent snap-x snap-mandatory pt-2">
             {[
-              "/firetruck_g/truck_lookd1.png",
-              "/firetruck_g/truck_lookd2.png"
+              "/firetruck_g/firetruck_lookd1.png",
+              "/firetruck_g/firetruck_lookd2.png"
             ].map((src, index) => (
               <div key={index} className="flex-shrink-0 w-[280px] sm:w-[340px] aspect-[4/3] snap-start bg-transparent rounded-lg shadow-md border border-[#0A3323]/10 flex items-center justify-center overflow-hidden">
                 <PortfolioImage
@@ -323,7 +323,7 @@ export default function LaFranceTruckModal({ onClose }: LaFranceTruckModalProps)
           </div>
           <div className="aspect-[4/3] rounded-lg overflow-hidden bg-transparent shadow-md border border-[#0A3323]/10 lg:order-1 flex items-center justify-center">
             <PortfolioImage
-              src="/firetruck_g/truck_lighting.png"
+              src="/firetruck_g/firetruck_lighting.png"
               alt="IES Lighting & Fog"
               className="w-full h-full object-contain rounded animate-fade-in"
             />
@@ -361,8 +361,8 @@ export default function LaFranceTruckModal({ onClose }: LaFranceTruckModalProps)
           </div>
           <div className="flex gap-6 overflow-x-auto pb-6 scrollbar-thin scrollbar-thumb-[#839958]/40 scrollbar-track-transparent snap-x snap-mandatory pt-2">
             {[
-              { src: "/firetruck_g/truck_environment1.JPG", alt: "Environment Creation 01", isJpg: true },
-              { src: "/firetruck_g/truck_environment2.png", alt: "Environment Creation 02", isJpg: false }
+              { src: "/firetruck_g/firetruck_environment1.JPG", alt: "Environment Creation 01", isJpg: true },
+              { src: "/firetruck_g/firetruck_environment2.png", alt: "Environment Creation 02", isJpg: false }
             ].map((img, index) => (
               <div key={index} className="flex-shrink-0 w-[280px] sm:w-[340px] aspect-[4/3] snap-start bg-transparent rounded-lg shadow-md border border-[#0A3323]/10 flex items-center justify-center overflow-hidden">
                 <PortfolioImage

@@ -27,7 +27,7 @@ export default function Hero() {
       <div className="absolute top-0 left-0 w-full h-full z-0 pointer-events-none overflow-hidden">
         <video
           className="w-full h-full object-cover scale-102"
-          src="/Banner.mp4"
+          src="/banner.mp4"
           autoPlay
           muted
           loop

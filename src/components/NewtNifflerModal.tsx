@@ -146,7 +146,7 @@ export default function NewtNifflerModal({ onClose }: NewtNifflerModalProps) {
             referrerPolicy="no-referrer"
           />
           <img
-            src="/icon_g/icon_substanceP.png"
+            src="/icon_g/icon_substance_painter.png"
             alt="Substance Painter"
             className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
             referrerPolicy="no-referrer"

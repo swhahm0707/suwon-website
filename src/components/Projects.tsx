@@ -134,7 +134,7 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
                           onError={(e) => {
                             const target = e.target as HTMLImageElement;
                             if (target.src.includes("hitracer_main.png")) {
-                              target.src = "/hitracer_g/HitRacer_EmmaAvatar.jpg";
+                              target.src = "/hitracer_g/hitracer_emma_avatar.jpg";
                             }
                           }}
                         />

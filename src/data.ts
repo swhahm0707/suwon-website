@@ -6,7 +6,7 @@ export const projectsData: Project[] = [
     title: "SoomGyul",
     category: "AI+3D Hybrid Modeling",
     description: "A pioneering hybrid workflow that seamlessly fuses the fluid probability of node-based AI with the rigid precision of traditional 3D manual sculpting.",
-    imageUrl: "/soomgyul_g/soomgyul.png",
+    imageUrl: "/soomgyul_g/soomgyul_main.png",
     specs: {
       polygons: "~185,000 tris",
       textures: "4K PBR (Diff, Normal, Rough, Metal, SSS)",

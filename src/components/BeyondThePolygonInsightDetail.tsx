@@ -52,7 +52,7 @@ export default function BeyondThePolygonInsightDetail() {
 
         <div className="my-6 space-y-2">
           <img 
-            src="/insight08_g/insight08_vanGogh.jpg" 
+            src="/insight08_g/insight08_van_gogh.jpg" 
             alt="Vincent van Gogh - Poppies in a Wheatfield" 
             className="w-full h-auto rounded-lg border border-[#839958]/20 shadow-md"
             referrerPolicy="no-referrer"
