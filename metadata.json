@@ -1,0 +1,6 @@
+{
+  "name": "Suwon Hahm Portfolio",
+  "description": "Portfolio website of Suwon Hahm, AI Artist & 3D Character Modeler.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
