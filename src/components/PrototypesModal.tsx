@@ -124,7 +124,7 @@ export default function PrototypesModal({ onClose }: PrototypesModalProps) {
           <div className="group bg-[#0A3323]/10 rounded overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl border border-[#F7F4D5]/10">
             <div className="aspect-video bg-[#F7F4D5] overflow-hidden flex items-center justify-center p-2">
               <img
-                src="/prototypes_g/prototypes_timeKeeper.png"
+                src="/prototypes_g/prototypes_time_keeper.png"
                 alt="Time Keeper"
                 className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -175,7 +175,7 @@ export default function PrototypesModal({ onClose }: PrototypesModalProps) {
           <div className="group bg-[#0A3323]/10 rounded overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl border border-[#F7F4D5]/10">
             <div className="aspect-video bg-[#F7F4D5] overflow-hidden flex items-center justify-center p-2">
               <img
-                src="/prototypes_g/prototypes_sleepyBoy.png"
+                src="/prototypes_g/prototypes_sleepy_boy.png"
                 alt="The Sleepy Boy"
                 className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"

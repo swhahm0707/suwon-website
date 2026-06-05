@@ -86,7 +86,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
       <section className="w-full max-w-5xl mx-auto px-[5%] pb-12">
         <div className="aspect-video w-full rounded-lg overflow-hidden bg-transparent shadow-md border border-[#0A3323]/10 flex items-center justify-center">
           <img
-            src="/soomgyul_g/soomgyulMain.png"
+            src="/soomgyul_g/soomgyul_main.png"
             alt="SoomGyul Main Character Showcase"
             className="w-full h-full object-contain"
             referrerPolicy="no-referrer"
@@ -118,7 +118,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
           <div className="rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10 aspect-[4/3] w-full">
             <img
-              src="/soomgyul_g/generatingTurnaround1.png"
+              src="/soomgyul_g/soomgyul_turnaround_making1.png"
               alt="Generating Turnaround Stage 1"
               className="w-full h-full object-contain hover:scale-[1.02] transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -126,7 +126,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
           </div>
           <div className="rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10 aspect-[4/3] w-full">
             <img
-              src="/soomgyul_g/generatingTurnaround2.png"
+              src="/soomgyul_g/soomgyul_turnaround_making2.png"
               alt="Generating Turnaround Stage 2"
               className="w-full h-full object-contain hover:scale-[1.02] transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -155,7 +155,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
           </div>
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
             <img
-              src="/soomgyul_g/hair_error.png"
+              src="/soomgyul_g/soomgyul_hair_error.png"
               alt="Hair Geometry Generation"
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -181,7 +181,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
           </div>
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
             <img
-              src="/soomgyul_g/turnaround.png"
+              src="/soomgyul_g/soomgyul_turnaround.png"
               alt="Character Turnarounds Layout"
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -212,7 +212,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
           </div>
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
             <img
-              src="/soomgyul_g/tip.png"
+              src="/soomgyul_g/soomgyul_tip.png"
               alt="Iterative Nodes Pipeline"
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -249,7 +249,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
           <div className="max-w-4xl mx-auto w-full">
             <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
               <img
-                src="/soomgyul_g/phase2.png"
+                src="/soomgyul_g/soomgyul_phase2.png"
                 alt="Phase 2 Workflow Showcase"
                 className="w-full h-full object-contain hover:scale-[1.02] transition-transform duration-500"
                 referrerPolicy="no-referrer"
@@ -283,7 +283,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
           </div>
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
             <img
-              src="/soomgyul_g/wireframe.png"
+              src="/soomgyul_g/soomgyul_wireframe.png"
               alt="Hunyuan 3D Model Manual Retopo pass"
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -319,7 +319,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
         <div className="max-w-4xl mx-auto w-full">
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
             <img
-              src="/soomgyul_g/facial.png"
+              src="/soomgyul_g/soomgyul_facial.png"
               alt="Facial Expression Charts"
               className="w-full h-full object-contain hover:scale-[1.02] transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -333,7 +333,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10 lg:order-2">
             <img
-              src="/soomgyul_g/maskingFacial.png"
+              src="/soomgyul_g/soomgyul_facial_making.png"
               alt="Subsurface facial blends and charts"
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"

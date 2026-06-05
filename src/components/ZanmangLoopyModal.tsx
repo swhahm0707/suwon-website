@@ -173,7 +173,7 @@ export default function ZanmangLoopyModal({ onClose }: ZanmangLoopyModalProps) {
               referrerPolicy="no-referrer"
             />
             <img
-              src="/icon_g/icon_substanceP.png"
+              src="/icon_g/icon_substance_painter.png"
               alt="Substance Painter"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
@@ -291,7 +291,7 @@ export default function ZanmangLoopyModal({ onClose }: ZanmangLoopyModalProps) {
                     className="rounded-lg overflow-hidden bg-transparent shadow-md border border-[#0A3323]/10 flex justify-center items-center cursor-zoom-in group"
                   >
                     <PortfolioImage
-                      src="/zLoopy_g/ZLoopy_FatLP.png"
+                      src="/zLoopy_g/loopy_plump.png"
                       alt="PLUMP LOOPY SHOWCASE"
                       className="w-full max-h-[500px] object-contain rounded animate-fade-in transition-transform duration-500 group-hover:scale-102"
                     />
@@ -376,15 +376,15 @@ export default function ZanmangLoopyModal({ onClose }: ZanmangLoopyModalProps) {
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {[
                   {
-                    src: "/zLoopy_g/ZLoopy_Highschool.png",
+                    src: "/zLoopy_g/loopy_school_uniform.png",
                     title: "SCHOOL UNIFORM LOOPY"
                   },
                   {
-                    src: "/zLoopy_g/ZLoopy_Tanning.png",
+                    src: "/zLoopy_g/loopy_tanned.png",
                     title: "TANNED LOOPY"
                   },
                   {
-                    src: "/zLoopy_g/ZLoppy_Tanning_Sunglasses.png",
+                    src: "/zLoopy_g/loopy_tanned_sunglasses.png",
                     title: "TANNED LOOPY X SUNGLASSES"
                   }
                 ].map((item, idx) => (
