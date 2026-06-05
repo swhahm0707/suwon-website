@@ -287,7 +287,7 @@ export default function ZanmangLoopyModal({ onClose }: ZanmangLoopyModalProps) {
                     </span>
                   </div>
                   <div 
-                    onClick={() => setActiveLightboxImg({ src: "/zLoopy_g/ZLoopy_FatLP.png", name: "PLUMP LOOPY SHOWCASE" })}
+                    onClick={() => setActiveLightboxImg({ src: "/zLoopy_g/loopy_plump.png", name: "PLUMP LOOPY SHOWCASE" })}
                     className="rounded-lg overflow-hidden bg-transparent shadow-md border border-[#0A3323]/10 flex justify-center items-center cursor-zoom-in group"
                   >
                     <PortfolioImage
