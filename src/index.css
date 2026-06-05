@@ -17,6 +17,8 @@
 html {
   scroll-behavior: smooth;
   background-color: #F7F4D5; /* Cream scroll anchor */
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 /* Custom gorgeous text-stroke outline effect for minimalist bold accents */
