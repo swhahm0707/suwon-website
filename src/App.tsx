@@ -11,15 +11,11 @@ export default function App() {
 
   useEffect(() => {
     const handleContextMenu = (e: MouseEvent) => {
-      if ((e.target as HTMLElement).tagName === 'IMG') {
-        e.preventDefault();
-      }
+      e.preventDefault();
     };
 
     const handleDragStart = (e: DragEvent) => {
-      if ((e.target as HTMLElement).tagName === 'IMG') {
-        e.preventDefault();
-      }
+      e.preventDefault();
     };
 
     document.addEventListener('contextmenu', handleContextMenu);
