@@ -335,8 +335,8 @@ export default function NewtNifflerModal({ onClose }: NewtNifflerModalProps) {
           <div className="flex gap-6 overflow-x-auto pb-6 scrollbar-thin scrollbar-thumb-[#839958]/40 scrollbar-track-transparent snap-x snap-mandatory pt-2 min-w-0 lg:order-1">
             {[
               { src: "/newtNiffler_g/newt_costume.png", alt: "Costume Production 01" },
-              { src: "/images/projects/work/newt_niffler/newt_costume2.png", alt: "Costume Production 02" },
-              { src: "/images/projects/work/newt_niffler/newt_costume3.png", alt: "Costume Production 03" }
+              { src: "/newtNiffler_g/newt_costume2.png", alt: "Costume Production 02" },
+              { src: "/newtNiffler_g/newt_costume3.png", alt: "Costume Production 03" }
             ].map((img, index) => (
               <div key={index} className="flex-shrink-0 w-[280px] sm:w-[340px] xl:w-[420px] aspect-[4/3] snap-start bg-transparent rounded-lg shadow-md border border-[#0A3323]/10 flex items-center justify-center overflow-hidden">
                 <PortfolioImage
