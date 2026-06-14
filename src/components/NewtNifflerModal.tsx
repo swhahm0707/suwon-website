@@ -332,12 +332,20 @@ export default function NewtNifflerModal({ onClose }: NewtNifflerModalProps) {
               I blocked out the base shapes for the clothing in Marvelous Designer and added fine wrinkle details in ZBrush. By leveraging jQuadCloth, I significantly reduced retopology time, allowing me to focus heavily on capturing the fabric patterns and material attributes in Substance Painter. Finally, to give the outfit a realistic Autumn/Winter weight, I utilized VRayFur to render unique thread/fuzz details for each garment.
             </p>
           </div>
-          <div className="aspect-[4/3] rounded-lg overflow-hidden bg-transparent shadow-md border border-[#0A3323]/10 lg:order-1 flex items-center justify-center">
-            <PortfolioImage
-              src="/newtNiffler_g/newt_costume.png"
-              alt="Costume Production"
-              className="w-full h-full object-contain rounded"
-            />
+          <div className="flex gap-6 overflow-x-auto pb-6 scrollbar-thin scrollbar-thumb-[#839958]/40 scrollbar-track-transparent snap-x snap-mandatory pt-2 min-w-0 lg:order-1">
+            {[
+              { src: "/newtNiffler_g/newt_costume.png", alt: "Costume Production 01" },
+              { src: "/images/projects/work/newt_niffler/newt_costume2.png", alt: "Costume Production 02" },
+              { src: "/images/projects/work/newt_niffler/newt_costume3.png", alt: "Costume Production 03" }
+            ].map((img, index) => (
+              <div key={index} className="flex-shrink-0 w-[280px] sm:w-[340px] xl:w-[420px] aspect-[4/3] snap-start bg-transparent rounded-lg shadow-md border border-[#0A3323]/10 flex items-center justify-center overflow-hidden">
+                <PortfolioImage
+                  src={img.src}
+                  alt={img.alt}
+                  className="w-full h-full object-contain rounded animate-fade-in"
+                />
+              </div>
+            ))}
           </div>
         </div>
 
