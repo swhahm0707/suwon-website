@@ -94,16 +94,14 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
                         onClick={() => setSelectedProject(project)}
                       >
                         <div className="overflow-hidden rounded-lg border border-deep-green/10 shadow-md aspect-square sm:aspect-[4/3] bg-transparent relative">
-                          <img
-                            src="/zLoopy_g/loopy_main1.png"
+                          <img loading="lazy" src="/zLoopy_g/loopy_main1.png"
                             alt="Zanmang Loopy Main Dynamic"
                             className="w-full h-full object-contain transition-transform duration-1000 ease-out group-hover:scale-103 animate-fade-in"
                             referrerPolicy="no-referrer"
                           />
                         </div>
                         <div className="overflow-hidden rounded-lg border border-deep-green/10 shadow-md aspect-square sm:aspect-[4/3] bg-transparent relative">
-                          <img
-                            src="/zLoopy_g/loopy_main2.png"
+                          <img loading="lazy" src="/zLoopy_g/loopy_main2.png"
                             alt="New Balance Loopy Main Edition"
                             className="w-full h-full object-contain transition-transform duration-1000 ease-out group-hover:scale-103 animate-fade-in"
                             referrerPolicy="no-referrer"
@@ -126,8 +124,7 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
                         className="overflow-hidden cursor-pointer group shadow-xl relative aspect-video lg:aspect-[4/3] rounded border border-deep-green/5"
                         onClick={() => setSelectedProject(project)}
                       >
-                        <img
-                          src="/hitracer_g/hitracer_main.png"
+                        <img loading="lazy" src="/hitracer_g/hitracer_main.png"
                           alt="HitRacer Main Visual"
                           className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
                           referrerPolicy="no-referrer"
@@ -153,8 +150,7 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
                         className="overflow-hidden cursor-pointer group aspect-video lg:aspect-[4/3] bg-transparent relative"
                         onClick={() => setSelectedProject(project)}
                       >
-                        <img
-                          src="/newtNiffler_g/newt_main1.png"
+                        <img loading="lazy" src="/newtNiffler_g/newt_main1.png"
                           alt="Newt Scamander Showcase"
                           className="w-full h-full object-contain transition-transform duration-1000 ease-out group-hover:scale-103"
                           referrerPolicy="no-referrer"
@@ -168,8 +164,7 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
                       }`}
                       onClick={() => setSelectedProject(project)}
                     >
-                      <img
-                        src={project.imageUrl ? project.imageUrl.replace(/&/g, "%26") : ""}
+                      <img loading="lazy" src={project.imageUrl ? project.imageUrl.replace(/&/g, "%26") : ""}
                         alt={project.title}
                         className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
                         referrerPolicy="no-referrer"

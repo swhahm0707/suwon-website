@@ -26,8 +26,7 @@ export default function ProjectModal({ project, onClose }: ProjectModalProps) {
       >
         {/* Header Ribbon / Cover Art */}
         <div className="relative h-60 md:h-80 w-full overflow-hidden">
-          <img
-            src={project.imageUrl}
+          <img loading="lazy" src={project.imageUrl}
             alt={project.title}
             className="w-full h-full object-cover"
             referrerPolicy="no-referrer"

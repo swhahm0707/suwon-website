@@ -58,20 +58,17 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
 
         {/* Tools Badges */}
         <div className="mt-12 flex justify-center items-center gap-6">
-          <img
-            src={logo1}
+          <img loading="lazy" src={logo1}
             alt="Tool Badge 1"
             className="w-16 h-16 object-contain opacity-95 hover:scale-110 transition-transform duration-300"
             referrerPolicy="no-referrer"
           />
-          <img
-            src={logo2}
+          <img loading="lazy" src={logo2}
             alt="Tool Badge 2"
             className="w-16 h-16 object-contain opacity-95 hover:scale-110 transition-transform duration-300"
             referrerPolicy="no-referrer"
           />
-          <img
-            src={logo3}
+          <img loading="lazy" src={logo3}
             alt="Tool Badge 3"
             className="w-16 h-16 object-contain opacity-95 hover:scale-110 transition-transform duration-300"
             referrerPolicy="no-referrer"
@@ -85,8 +82,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
       {/* Main Feature Visual Banner */}
       <section className="w-full max-w-5xl mx-auto px-[5%] pb-12">
         <div className="aspect-video w-full rounded-lg overflow-hidden bg-transparent shadow-md border border-[#0A3323]/10 flex items-center justify-center">
-          <img
-            src="/soomgyul_g/soomgyul_main.png"
+          <img loading="lazy" src="/soomgyul_g/soomgyul_main.png"
             alt="SoomGyul Main Character Showcase"
             className="w-full h-full object-contain"
             referrerPolicy="no-referrer"
@@ -117,16 +113,14 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
         {/* Cohesive side-by-side showcase of Turnaround 1 & 2 right under Phase 1 Text */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full">
           <div className="rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10 aspect-[4/3] w-full">
-            <img
-              src="/soomgyul_g/soomgyul_turnaround_making1.png"
+            <img loading="lazy" src="/soomgyul_g/soomgyul_turnaround_making1.png"
               alt="Generating Turnaround Stage 1"
               className="w-full h-full object-contain hover:scale-[1.02] transition-transform duration-500"
               referrerPolicy="no-referrer"
             />
           </div>
           <div className="rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10 aspect-[4/3] w-full">
-            <img
-              src="/soomgyul_g/soomgyul_turnaround_making2.png"
+            <img loading="lazy" src="/soomgyul_g/soomgyul_turnaround_making2.png"
               alt="Generating Turnaround Stage 2"
               className="w-full h-full object-contain hover:scale-[1.02] transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -154,8 +148,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
             </blockquote>
           </div>
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
-            <img
-              src="/soomgyul_g/soomgyul_hair_error.png"
+            <img loading="lazy" src="/soomgyul_g/soomgyul_hair_error.png"
               alt="Hair Geometry Generation"
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -180,8 +173,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
             </p>
           </div>
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
-            <img
-              src="/soomgyul_g/soomgyul_turnaround.png"
+            <img loading="lazy" src="/soomgyul_g/soomgyul_turnaround.png"
               alt="Character Turnarounds Layout"
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -211,8 +203,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
             </ul>
           </div>
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
-            <img
-              src="/soomgyul_g/soomgyul_tip.png"
+            <img loading="lazy" src="/soomgyul_g/soomgyul_tip.png"
               alt="Iterative Nodes Pipeline"
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -248,8 +239,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
           {/* Phase 2 image inserted right below Phase 2 Text */}
           <div className="max-w-4xl mx-auto w-full">
             <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
-              <img
-                src="/soomgyul_g/soomgyul_phase2.png"
+              <img loading="lazy" src="/soomgyul_g/soomgyul_phase2.png"
                 alt="Phase 2 Workflow Showcase"
                 className="w-full h-full object-contain hover:scale-[1.02] transition-transform duration-500"
                 referrerPolicy="no-referrer"
@@ -282,8 +272,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
             </p>
           </div>
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
-            <img
-              src="/soomgyul_g/soomgyul_wireframe.png"
+            <img loading="lazy" src="/soomgyul_g/soomgyul_wireframe.png"
               alt="Hunyuan 3D Model Manual Retopo pass"
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -318,8 +307,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
         {/* Phase 3 facial.png image inserted right below Phase 3 Text */}
         <div className="max-w-4xl mx-auto w-full">
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10">
-            <img
-              src="/soomgyul_g/soomgyul_facial.png"
+            <img loading="lazy" src="/soomgyul_g/soomgyul_facial.png"
               alt="Facial Expression Charts"
               className="w-full h-full object-contain hover:scale-[1.02] transition-transform duration-500"
               referrerPolicy="no-referrer"
@@ -332,8 +320,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
       <section className="px-[5%] pb-24 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="aspect-[4/3] w-full rounded-lg shadow-md overflow-hidden bg-transparent flex items-center justify-center border border-[#0A3323]/10 lg:order-2">
-            <img
-              src="/soomgyul_g/soomgyul_facial_making.png"
+            <img loading="lazy" src="/soomgyul_g/soomgyul_facial_making.png"
               alt="Subsurface facial blends and charts"
               className="w-full h-full object-contain hover:scale-105 transition-transform duration-500"
               referrerPolicy="no-referrer"

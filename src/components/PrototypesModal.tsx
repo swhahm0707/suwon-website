@@ -54,8 +54,7 @@ export default function PrototypesModal({ onClose }: PrototypesModalProps) {
 
         {/* Tools Badges */}
         <div className="mt-12 flex justify-center items-center gap-6">
-          <img
-            src={brandLogo}
+          <img loading="lazy" src={brandLogo}
             alt="Brand Logo"
             className="w-16 h-16 object-contain opacity-95 hover:scale-110 transition-transform duration-300"
             referrerPolicy="no-referrer"
@@ -65,8 +64,7 @@ export default function PrototypesModal({ onClose }: PrototypesModalProps) {
 
       {/* Main Feature Visual Banner */}
       <section className="w-full h-[60vh] md:h-[85vh] flex items-center justify-center bg-[#F7F4D5] overflow-hidden p-4">
-        <img
-          src="/prototypes_g/prototypes_main.png"
+        <img loading="lazy" src="/prototypes_g/prototypes_main.png"
           alt="Main prototypes character showcase"
           className="w-full h-full object-contain"
           referrerPolicy="no-referrer"
@@ -123,8 +121,7 @@ export default function PrototypesModal({ onClose }: PrototypesModalProps) {
           {/* Card 1 */}
           <div className="group bg-[#0A3323]/10 rounded overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl border border-[#F7F4D5]/10">
             <div className="aspect-video bg-[#F7F4D5] overflow-hidden flex items-center justify-center p-2">
-              <img
-                src="/prototypes_g/prototypes_time_keeper.png"
+              <img loading="lazy" src="/prototypes_g/prototypes_time_keeper.png"
                 alt="Time Keeper"
                 className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -140,8 +137,7 @@ export default function PrototypesModal({ onClose }: PrototypesModalProps) {
           {/* Card 2 */}
           <div className="group bg-[#0A3323]/10 rounded overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl border border-[#F7F4D5]/10">
             <div className="aspect-video bg-[#F7F4D5] overflow-hidden flex items-center justify-center p-2">
-              <img
-                src="/prototypes_g/prototypes_chef.png"
+              <img loading="lazy" src="/prototypes_g/prototypes_chef.png"
                 alt="The Chef"
                 className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -157,8 +153,7 @@ export default function PrototypesModal({ onClose }: PrototypesModalProps) {
           {/* Card 3 */}
           <div className="group bg-[#0A3323]/10 rounded overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl border border-[#F7F4D5]/10">
             <div className="aspect-video bg-[#F7F4D5] overflow-hidden flex items-center justify-center p-2">
-              <img
-                src="/prototypes_g/prototypes_witch.png"
+              <img loading="lazy" src="/prototypes_g/prototypes_witch.png"
                 alt="The Witch"
                 className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"
@@ -174,8 +169,7 @@ export default function PrototypesModal({ onClose }: PrototypesModalProps) {
           {/* Card 4 */}
           <div className="group bg-[#0A3323]/10 rounded overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl border border-[#F7F4D5]/10">
             <div className="aspect-video bg-[#F7F4D5] overflow-hidden flex items-center justify-center p-2">
-              <img
-                src="/prototypes_g/prototypes_sleepy_boy.png"
+              <img loading="lazy" src="/prototypes_g/prototypes_sleepy_boy.png"
                 alt="The Sleepy Boy"
                 className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105"
                 referrerPolicy="no-referrer"

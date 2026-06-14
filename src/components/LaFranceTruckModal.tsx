@@ -69,8 +69,7 @@ function PortfolioImage({ src, alt, className = "", aspectRatio = "aspect-[4/3]"
   }
 
   return (
-    <img
-      src={currentSrc}
+    <img loading="lazy" src={currentSrc}
       alt={alt}
       className={className}
       referrerPolicy={referrerPolicy}
@@ -134,44 +133,37 @@ export default function LaFranceTruckModal({ onClose }: LaFranceTruckModalProps)
 
         {/* Tools Badges */}
         <div className="mt-12 flex justify-center items-center gap-6 flex-wrap">
-          <img
-            src="/icon_g/icon_maya.png"
+          <img loading="lazy" src="/icon_g/icon_maya.png"
             alt="Maya"
             className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
             referrerPolicy="no-referrer"
           />
-          <img
-            src="/icon_g/icon_vray.png"
+          <img loading="lazy" src="/icon_g/icon_vray.png"
             alt="V-Ray"
             className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
             referrerPolicy="no-referrer"
           />
-          <img
-            src="/icon_g/icon_zbrush.png"
+          <img loading="lazy" src="/icon_g/icon_zbrush.png"
             alt="ZBrush"
             className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
             referrerPolicy="no-referrer"
           />
-          <img
-            src="/icon_g/icon_substance_painter.png"
+          <img loading="lazy" src="/icon_g/icon_substance_painter.png"
             alt="Substance Painter"
             className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
             referrerPolicy="no-referrer"
           />
-          <img
-            src="/icon_g/icon_photoshop.png"
+          <img loading="lazy" src="/icon_g/icon_photoshop.png"
             alt="Photoshop"
             className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
             referrerPolicy="no-referrer"
           />
-          <img
-            src="/icon_g/icon_unrealengine.png"
+          <img loading="lazy" src="/icon_g/icon_unrealengine.png"
             alt="Unreal Engine"
             className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
             referrerPolicy="no-referrer"
           />
-          <img
-            src="/icon_g/icon_nuke.png"
+          <img loading="lazy" src="/icon_g/icon_nuke.png"
             alt="Nuke"
             className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
             referrerPolicy="no-referrer"
@@ -200,8 +192,7 @@ export default function LaFranceTruckModal({ onClose }: LaFranceTruckModalProps)
 
         {/* Main visual render of Fire Truck below the Youtube Embed */}
         <div className="max-w-4xl mx-auto mb-16 rounded-2xl overflow-hidden shadow-2xl">
-          <img 
-            src="/firetruck_g/firetruck_main.png" 
+          <img loading="lazy" src="/firetruck_g/firetruck_main.png" 
             alt="Fire Truck Main Render"
             className="w-full h-auto object-cover"
             referrerPolicy="no-referrer"

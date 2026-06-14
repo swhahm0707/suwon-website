@@ -23,8 +23,7 @@ export default function TheArtOfSubtractionInsightDetail() {
 
         {/* KansongMuseum Image */}
         <div className="flex justify-center my-6">
-          <img
-            src="/insight07_g/insight07_kansong_museum.jpg"
+          <img loading="lazy" src="/insight07_g/insight07_kansong_museum.jpg"
             alt="Kansong Museum Exhibit"
             className="rounded-lg max-w-full h-auto border border-[#839958]/20 shadow-lg object-cover"
             referrerPolicy="no-referrer"
@@ -51,8 +50,7 @@ export default function TheArtOfSubtractionInsightDetail() {
 
         {/* Sehando Image */}
         <div className="flex justify-center my-6 bg-[#F7F4D5]/5 p-2 rounded border border-[#839958]/15">
-          <img
-            src="/insight07_g/insight07_sehando.jpg"
+          <img loading="lazy" src="/insight07_g/insight07_sehando.jpg"
             alt="Sehando Painting by Kim Jeong-hui"
             className="rounded max-w-full h-auto filter brightness-95 contrast-105"
             referrerPolicy="no-referrer"

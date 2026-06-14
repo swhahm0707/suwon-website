@@ -22,8 +22,7 @@ export default function BeyondThePolygonInsightDetail() {
         </p>
 
         <div className="my-6 space-y-2">
-          <img 
-            src="/insight08_g/insight08_paulSignac.jpg" 
+          <img loading="lazy" src="/insight08_g/insight08_paulSignac.jpg" 
             alt="Paul Signac - The Tugboat, Canal in Samois" 
             className="w-full h-auto rounded-lg border border-[#839958]/20 shadow-md"
             referrerPolicy="no-referrer"
@@ -51,8 +50,7 @@ export default function BeyondThePolygonInsightDetail() {
         </p>
 
         <div className="my-6 space-y-2">
-          <img 
-            src="/insight08_g/insight08_van_gogh.jpg" 
+          <img loading="lazy" src="/insight08_g/insight08_van_gogh.jpg" 
             alt="Vincent van Gogh - Poppies in a Wheatfield" 
             className="w-full h-auto rounded-lg border border-[#839958]/20 shadow-md"
             referrerPolicy="no-referrer"
@@ -174,8 +172,7 @@ export default function BeyondThePolygonInsightDetail() {
               The AI did not give me a literal depiction of a note. Instead, it bypassed the standard toolkit to focus on atmosphere: it visualized sound as waves of luminous light rippling outward from the strings of a guitar. It broadcasted the abstract concept of "joy" through a deliberate flush of color and the ambient, expressive gestures of the surrounding figures.
             </p>
             <div className="mt-2 flex justify-center">
-              <img 
-                src="/insight08_g/insight08_sound01.png" 
+              <img loading="lazy" src="/insight08_g/insight08_sound01.png" 
                 alt="Express joyful sound as a cinematic frame" 
                 className="w-full max-w-lg h-auto rounded-lg border border-[#839958]/20 shadow-sm"
                 referrerPolicy="no-referrer"
@@ -208,8 +205,7 @@ export default function BeyondThePolygonInsightDetail() {
               </p>
             </div>
             <div className="mt-2 flex justify-center">
-              <img 
-                src="/insight08_g/insight08_sound02.png" 
+              <img loading="lazy" src="/insight08_g/insight08_sound02.png" 
                 alt="Sound possessing physical anatomy" 
                 className="w-full max-w-lg h-auto rounded-lg border border-[#839958]/20 shadow-sm"
                 referrerPolicy="no-referrer"

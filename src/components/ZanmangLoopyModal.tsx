@@ -69,8 +69,7 @@ function PortfolioImage({ src, alt, className = "", aspectRatio = "aspect-[4/3]"
   }
 
   return (
-    <img
-      src={currentSrc}
+    <img loading="lazy" src={currentSrc}
       alt={alt}
       className={className}
       referrerPolicy={referrerPolicy}
@@ -160,26 +159,22 @@ export default function ZanmangLoopyModal({ onClose }: ZanmangLoopyModalProps) {
 
           {/* Tools Badges */}
           <div className="mt-12 flex justify-center items-center gap-6">
-            <img
-              src="/icon_g/icon_maya.png"
+            <img loading="lazy" src="/icon_g/icon_maya.png"
               alt="Maya"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
             />
-            <img
-              src="/icon_g/icon_zbrush.png"
+            <img loading="lazy" src="/icon_g/icon_zbrush.png"
               alt="ZBrush"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
             />
-            <img
-              src="/icon_g/icon_substance_painter.png"
+            <img loading="lazy" src="/icon_g/icon_substance_painter.png"
               alt="Substance Painter"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
             />
-            <img
-              src="/icon_g/icon_photoshop.png"
+            <img loading="lazy" src="/icon_g/icon_photoshop.png"
               alt="Photoshop"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
@@ -514,8 +509,7 @@ export default function ZanmangLoopyModal({ onClose }: ZanmangLoopyModalProps) {
             className="max-w-5xl w-full max-h-[80vh] flex flex-col items-center justify-center gap-4 py-8"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
-              src={activeLightboxImg.src}
+            <img loading="lazy" src={activeLightboxImg.src}
               alt={activeLightboxImg.name}
               className="max-w-full max-h-[70vh] object-contain rounded-xl border border-[#839958]/25 shadow-2xl bg-neutral-900/10"
               referrerPolicy="no-referrer"

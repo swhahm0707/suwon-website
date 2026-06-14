@@ -86,32 +86,27 @@ export default function HitRacerModal({ onClose }: HitRacerModalProps) {
 
           {/* Tools Badges */}
           <div className="mt-12 flex justify-center items-center gap-6">
-            <img
-              src="/icon_g/icon_maya.png"
+            <img loading="lazy" src="/icon_g/icon_maya.png"
               alt="Maya"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
             />
-            <img
-              src="/icon_g/icon_zbrush.png"
+            <img loading="lazy" src="/icon_g/icon_zbrush.png"
               alt="ZBrush"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
             />
-            <img
-              src="/icon_g/icon_mudbox.png"
+            <img loading="lazy" src="/icon_g/icon_mudbox.png"
               alt="Mudbox"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
             />
-            <img
-              src="/icon_g/icon_substance_painter.png"
+            <img loading="lazy" src="/icon_g/icon_substance_painter.png"
               alt="Substance Painter"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
             />
-            <img
-              src="/icon_g/icon_photoshop.png"
+            <img loading="lazy" src="/icon_g/icon_photoshop.png"
               alt="Photoshop"
               className="w-10 h-10 object-contain opacity-90 hover:scale-105 transition-transform"
               referrerPolicy="no-referrer"
@@ -190,8 +185,7 @@ export default function HitRacerModal({ onClose }: HitRacerModalProps) {
                 className="bg-white border border-[#839958]/20 rounded-2xl p-4 shadow-lg flex flex-col justify-between hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 cursor-zoom-in group"
               >
                 <div className="rounded-xl overflow-hidden relative bg-neutral-50 border border-neutral-100 p-2 sm:p-4 flex items-center justify-center shadow-inner">
-                  <img
-                    src={char.src}
+                  <img loading="lazy" src={char.src}
                     alt={char.name}
                     className="w-full max-h-[550px] object-contain rounded-lg transition-transform duration-500 group-hover:scale-105"
                     referrerPolicy="no-referrer"
@@ -354,8 +348,7 @@ export default function HitRacerModal({ onClose }: HitRacerModalProps) {
                     className="bg-white border border-[#839958]/15 rounded-2xl p-4 text-center shadow-md flex flex-col justify-between hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300 cursor-zoom-in group"
                   >
                     <div className="rounded-xl overflow-hidden bg-neutral-50 p-2 sm:p-4 border border-neutral-100 shadow-inner flex items-center justify-center aspect-[4/3] relative">
-                      <img
-                        src={sheet.src}
+                      <img loading="lazy" src={sheet.src}
                         alt={sheet.name}
                         className="w-full h-full object-contain rounded-lg transition-transform duration-500 group-hover:scale-105"
                         referrerPolicy="no-referrer"
@@ -463,8 +456,7 @@ export default function HitRacerModal({ onClose }: HitRacerModalProps) {
             className="max-w-5xl w-full max-h-[80vh] flex flex-col items-center justify-center gap-4 py-8"
             onClick={(e) => e.stopPropagation()}
           >
-            <img
-              src={activeLightboxImg.src}
+            <img loading="lazy" src={activeLightboxImg.src}
               alt={activeLightboxImg.name}
               className="max-w-full max-h-[70vh] object-contain rounded-xl border border-[#839958]/25 shadow-2xl bg-neutral-900/10"
               referrerPolicy="no-referrer"
