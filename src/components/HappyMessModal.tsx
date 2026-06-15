@@ -339,6 +339,9 @@ Absolutely do not make an ordinary 'pretty room', but aim to work at the product
         <h1 className="text-5xl sm:text-7xl md:text-[5.5rem] lg:text-[7rem] font-black uppercase tracking-[-2px] sm:tracking-[-4px] leading-none mb-4 font-display">
           Happy Mess Prologue
         </h1>
+        <span className="text-xl md:text-2xl font-black block tracking-[2px] mb-8">
+          2026.03~Present
+        </span>
         <p className="max-w-3xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed font-semibold text-[#F7F4D5]/90 mt-12 mb-8">
           <strong className="text-[#0A3323] uppercase tracking-wider block mb-2">[Creator’s Story]</strong>
           I was a creator who, trapped in the obsession of having to make a perfect piece of work, only accumulated knowledge for a long time and couldn't create anything. Then, encountering AI, a 'tool that shortens the process,' I gained the courage to bring the things floating in my head out into the world for the first time. Therefore, this story begins first and foremost from the existence where I can be most honest.
@@ -429,7 +432,7 @@ Absolutely do not make an ordinary 'pretty room', but aim to work at the product
               <PortfolioImage src="/happymess_g/happymess_jia_draft_front.png" alt="Jia Draft Front" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_jia_draft_side.png" alt="Jia Draft Side" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <PortfolioImage src="/happymess_g/happymess_jia_draft_side.jpg" alt="Jia Draft Side" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
               <PortfolioImage src="/happymess_g/happymess_babyjia_draft_front.png" alt="Baby Jia Draft Front" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
@@ -472,19 +475,19 @@ Absolutely do not make an ordinary 'pretty room', but aim to work at the product
           <PromptAccordion title="Visual Develop Artist Prompt" content={visualDevPrompt} />
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-8">
             <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_jia_bedroom.png" alt="Jia Bedroom" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <PortfolioImage src="/happymess_g/happymess_jia_bedroom.png" alt="Jia Bedroom" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_jia_bathroom.png" alt="Jia Bathroom" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <PortfolioImage src="/happymess_g/happymess_jia_bathroom.png" alt="Jia Bathroom" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_jia_dressingroom.png" alt="Jia Dressing Room" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <PortfolioImage src="/happymess_g/happymess_jia_dressingroom.png" alt="Jia Dressing Room" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="col-span-2 md:col-span-1 aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_jia_artroom.png" alt="Jia Art Room" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <PortfolioImage src="/happymess_g/happymess_jia_artroom.png" alt="Jia Art Room" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="col-span-2 md:col-span-2 aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_jia_door.png" alt="Jia Door" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <PortfolioImage src="/happymess_g/happymess_jia_door.png" alt="Jia Door" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
         </div>
@@ -499,16 +502,16 @@ Absolutely do not make an ordinary 'pretty room', but aim to work at the product
           </p>
           <div className="grid grid-cols-2 gap-4 lg:gap-6 mt-8">
             <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_process1.png" alt="Process 1" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <PortfolioImage src="/happymess_g/happymess_process1.png" alt="Process 1" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_process2.png" alt="Process 2" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <PortfolioImage src="/happymess_g/happymess_process2.png" alt="Process 2" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_process3.png" alt="Process 3" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <PortfolioImage src="/happymess_g/happymess_process3.png" alt="Process 3" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
             <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_scene0_0.png" alt="Scene 0" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+              <PortfolioImage src="/happymess_g/happymess_scene0_0.png" alt="Scene 0" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
         </div>
