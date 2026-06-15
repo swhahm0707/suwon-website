@@ -46,7 +46,7 @@ export default function PrototypesModal({ onClose }: PrototypesModalProps) {
           Prototypes
         </h1>
         <span className="text-xl md:text-2xl font-black block tracking-[2px] mb-8">
-          2026
+          2026.03 ~ 2026.04
         </span>
         <p className="max-w-3xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed font-semibold text-[#F7F4D5]/90">
           Too often, our industry treats artificial intelligence as a passive rendering tool—a glorified, high-speed paintbrush. Deconstructing that assumption, this specific series explores the outer boundaries of pure, prompt-driven character creation. Rather than forcing the machine into a state of silent compliance, I experimented with assigning it a distinct creative persona, treating it as a volatile collaborator. The ultimate goal was to test the friction between automation and artistry, pushing the algorithm to its logical limits to observe a slippery question: Can a machine possess a distinct, un-replicated signature of originality?

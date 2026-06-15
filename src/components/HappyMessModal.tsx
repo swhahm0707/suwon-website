@@ -427,21 +427,31 @@ Absolutely do not make an ordinary 'pretty room', but aim to work at the product
           <p className="text-sm sm:text-base leading-relaxed text-[#105666] font-medium">
             To implement a Korean character, I transformed my own photographed face into a character form using Galaxy AI to create the protagonist, and then utilized nodes like Gemini Banana Pro, Flux 2 Pro, Recraft V4, Painter, and Inpaint from Weavy AI to bring out the silk fabric feel of the Hanbok, the embroidery details of Korean patterns, and the embroidery details of the hairband.
           </p>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-8">
-            <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_jia_draft_front.png" alt="Jia Draft Front" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+          <div className="mt-8 space-y-12">
+            <div>
+              <h4 className="text-xl sm:text-2xl font-black text-[#0A3323] uppercase mb-6">Adult Jia</h4>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6">
+                <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
+                  <PortfolioImage src="/happymess_g/happymess_jia_draft_front.png" alt="Jia Draft Front" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
+                  <PortfolioImage src="/happymess_g/happymess_jia_draft_side.jpg" alt="Jia Draft Side" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md flex items-center justify-center bg-white/50">
+                  <PortfolioImage src="/happymess_g/happymess_jia_turnaround_2k.png" alt="Jia Turnaround" className="w-full h-full object-contain hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
             </div>
-            <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_jia_draft_side.jpg" alt="Jia Draft Side" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
-            </div>
-            <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_babyjia_draft_front.png" alt="Baby Jia Draft Front" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
-            </div>
-            <div className="col-span-2 md:col-span-3 aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_babyjia_draft_turnaround.png" alt="Baby Jia Turnaround" className="w-full h-full object-contain hover:scale-105 transition-transform duration-500 bg-white/50" />
-            </div>
-            <div className="col-span-2 md:col-span-3 aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_jia_turnaround_2k.png" alt="Jia Turnaround" className="w-full h-full object-contain hover:scale-105 transition-transform duration-500 bg-white/50" />
+            <div>
+              <h4 className="text-xl sm:text-2xl font-black text-[#0A3323] uppercase mb-6">Young Jia</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+                <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
+                  <PortfolioImage src="/happymess_g/happymess_babyjia_draft_front.png" alt="Baby Jia Draft Front" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                </div>
+                <div className="aspect-[3/4] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md flex items-center justify-center bg-white/50">
+                  <PortfolioImage src="/happymess_g/happymess_babyjia_draft_turnaround.png" alt="Baby Jia Turnaround" className="w-full h-full object-contain hover:scale-105 transition-transform duration-500" />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -473,20 +483,20 @@ Absolutely do not make an ordinary 'pretty room', but aim to work at the product
             Created a visual storytelling space that clearly reveals the character's personality and traits. Made Gemini analyze the character, derive spatial concepts, and perform visual development, then provided evaluation criteria to have it self-evaluate; if it scored below a certain point, it was repeatedly improved to output only the top results. By doing this, multiple rooms were made to maintain the same concept.
           </p>
           <PromptAccordion title="Visual Develop Artist Prompt" content={visualDevPrompt} />
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:gap-6 mt-8">
-            <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6 mt-8">
+            <div className="aspect-[9/16] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
               <PortfolioImage src="/happymess_g/happymess_jia_bedroom.png" alt="Jia Bedroom" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
-            <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
+            <div className="aspect-[9/16] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
               <PortfolioImage src="/happymess_g/happymess_jia_bathroom.png" alt="Jia Bathroom" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
-            <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
+            <div className="aspect-[9/16] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
               <PortfolioImage src="/happymess_g/happymess_jia_dressingroom.png" alt="Jia Dressing Room" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
-            <div className="col-span-2 md:col-span-1 aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
+            <div className="aspect-[9/16] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
               <PortfolioImage src="/happymess_g/happymess_jia_artroom.png" alt="Jia Art Room" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
-            <div className="col-span-2 md:col-span-2 aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
+            <div className="aspect-[9/16] rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
               <PortfolioImage src="/happymess_g/happymess_jia_door.png" alt="Jia Door" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
             </div>
           </div>
@@ -500,18 +510,12 @@ Absolutely do not make an ordinary 'pretty room', but aim to work at the product
           <p className="text-sm sm:text-base leading-relaxed text-[#105666] font-medium">
             Selected optimal scenes by letting scenes be derived into various lens types, shot types, and character angles utilizing prompt, prompt concatenator, system prompt, LLM, Array, and Lists nodes. Maintained character and background consistency through the Image Input and prompt commands of Weavy AI's Nano Banana P.
           </p>
-          <div className="grid grid-cols-2 gap-4 lg:gap-6 mt-8">
-            <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_process1.png" alt="Process 1" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
-            </div>
-            <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_process2.png" alt="Process 2" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
-            </div>
-            <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_process3.png" alt="Process 3" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
-            </div>
-            <div className="aspect-video rounded-lg overflow-hidden border border-[#0A3323]/10 shadow-md">
-              <PortfolioImage src="/happymess_g/happymess_scene0_0.png" alt="Scene 0" className="w-full h-full object-contain bg-white/50 hover:scale-105 transition-transform duration-500" />
+          <div className="mt-8 flex flex-col w-full">
+            <PortfolioImage src="/happymess_g/happymess_scene0_0.png" alt="Scene 0" className="block w-full h-auto object-cover mb-12" />
+            <div className="flex flex-col w-full">
+              <PortfolioImage src="/happymess_g/happymess_process1.png" alt="Process 1" className="block w-full h-auto object-cover m-0 p-0" />
+              <PortfolioImage src="/happymess_g/happymess_process2.png" alt="Process 2" className="block w-full h-auto object-cover m-0 p-0" />
+              <PortfolioImage src="/happymess_g/happymess_process3.png" alt="Process 3" className="block w-full h-auto object-cover m-0 p-0" />
             </div>
           </div>
         </div>

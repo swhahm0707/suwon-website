@@ -50,7 +50,7 @@ export default function SoomgyulModal({ onClose }: SoomgyulModalProps) {
           SoomGyul
         </h1>
         <span className="text-xl md:text-2xl font-black block tracking-[2px] mb-8">
-          2026
+          2026.03 ~ 2026.05
         </span>
         <p className="max-w-3xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed font-medium text-[#F7F4D5]/90">
           What follows is a deliberate departure from pure manual labor—a complete, functional workflow that integrates the chaotic fluidity of AI-driven generation into the rigid architectures of a traditional 3D modeling pipeline. By combining node-based AI systems, which operate in vast fields of probability, with the precise and uncompromising intent of manual execution, I established an efficient, high-fidelity character creation process. The result is a new design paradigm that feels simultaneously synthesized and hand-sculpted.
