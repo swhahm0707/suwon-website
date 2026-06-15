@@ -188,6 +188,21 @@ export const projectsData: Project[] = [
         description: "Imported the heavy mesh into Unreal Engine 5 via Nanite. Crafted a moody, dusty 1920s vehicle garage environment with volumetric fog, dusty particles, and metallic ray-traced shadows."
       }
     ]
+  },
+  {
+    id: "happy-mess",
+    title: "Happy Mess Prologue",
+    category: "AI Animation",
+    description: "1-person animation production using only AI without any existing 3D work. What is something that only AI can express, which 3D tools cannot imitate, something I had agonized over before? Starting with this agonizing question, I realized it through the production of this animation.",
+    imageUrl: "/happymess_g/happymess_main.png",
+    specs: {
+      polygons: "N/A",
+      textures: "N/A",
+      pipeline: "Story Forge -> Character Design -> Visual Development -> Scene Generation",
+      softwareUsed: ["Gemini", "Midjourney", "Flux 2 Pro", "Recraft V4", "Weavy AI"]
+    },
+    backgroundStory: "I was a creator who, trapped in the obsession of having to make a perfect piece of work, only accumulated knowledge for a long time and couldn't create anything. Then, encountering AI, a 'tool that shortens the process,' I gained the courage to bring the things floating in my head out into the world for the first time. Therefore, this story begins first and foremost from the existence where I can be most honest.",
+    breakdownSteps: []
   }
 ];
 

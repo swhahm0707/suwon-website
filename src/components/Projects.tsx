@@ -10,6 +10,7 @@ import NewtNifflerModal from "./NewtNifflerModal";
 import LaFranceTruckModal from "./LaFranceTruckModal";
 import HitRacerModal from "./HitRacerModal";
 import ZanmangLoopyModal from "./ZanmangLoopyModal";
+import HappyMessModal from "./HappyMessModal";
 
 interface ProjectsProps {
   onModalOpenChange?: (id: string | null) => void;
@@ -30,7 +31,7 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
   const filteredProjects = projectsData.filter((proj) => {
     if (activeFilter === "ALL") return true;
     if (activeFilter === "AI+3D HYBRID") return proj.id === "soomgyul";
-    if (activeFilter === "AI") return proj.id === "prototypes";
+    if (activeFilter === "AI") return ["prototypes", "happy-mess"].includes(proj.id);
     if (activeFilter === "3D") {
       return ["zanmang-loopy", "hit-racer", "newt-niffler", "lafrance-truck"].includes(proj.id);
     }
@@ -228,6 +229,8 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
             <NewtNifflerModal onClose={() => setSelectedProject(null)} />
           ) : selectedProject.id === "lafrance-truck" ? (
             <LaFranceTruckModal onClose={() => setSelectedProject(null)} />
+          ) : selectedProject.id === "happy-mess" ? (
+            <HappyMessModal onClose={() => setSelectedProject(null)} />
           ) : (
             <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
           )
