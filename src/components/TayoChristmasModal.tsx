@@ -69,7 +69,11 @@ export default function TayoChristmasModal({ onClose }: TayoChristmasModalProps)
             2025
           </span>
           
-          <div className="w-full max-w-4xl mx-auto aspect-video mb-4 rounded-xl overflow-hidden shadow-2xl border border-[#F7F4D5]/20">
+          <p className="max-w-3xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed font-semibold text-[#F7F4D5]/90 mb-12">
+            Participated in the 3D character asset production for the Tayo Christmas Musical animation. The project focused on bringing two newly introduced, highly expressive character vehicles to life - the Santa Car(Mary) and Thief Car(Villain).
+          </p>
+
+          <div className="w-full max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden shadow-2xl border border-[#F7F4D5]/20">
             <iframe 
               className="w-full h-full" 
               src="https://www.youtube.com/embed/P8fOQNrH6a0" 
@@ -80,13 +84,6 @@ export default function TayoChristmasModal({ onClose }: TayoChristmasModalProps)
               allowFullScreen>
             </iframe>
           </div>
-          <div className="mb-12 text-center text-xs text-[#F7F4D5]/70 font-semibold tracking-wider">
-            Image Credit: <a href="https://www.youtube.com/watch?v=P8fOQNrH6a0" target="_blank" rel="noopener noreferrer" className="hover:text-[#F7F4D5] underline underline-offset-4 decoration-[#F7F4D5]/40 transition-colors">Tayo the Little Bus Youtube</a>
-          </div>
-
-          <p className="max-w-3xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed font-semibold text-[#F7F4D5]/90">
-            Participated in the 3D character asset production for the Tayo Christmas Musical animation. The project focused on bringing two newly introduced, highly expressive character vehicles to life - the Santa Car(Mary) and Thief Car(Villain).
-          </p>
         </div>
       </header>
 
