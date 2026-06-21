@@ -200,6 +200,18 @@ export default function ZanmangLoopyModal({ onClose }: ZanmangLoopyModalProps) {
             <p className="text-sm sm:text-base leading-relaxed text-[#105666] font-medium">
               This segment involves the 3D character asset production for the official Zanmang Loopy music video released across YouTube and various media platforms. The core creative challenge lay in translating highly stylized, comedic, and dynamic conceptual states into production-ready 3D character meshes and props while strictly preserving the globally recognized brand identity of the character.
             </p>
+            
+            <div className="w-full aspect-video rounded-xl overflow-hidden shadow-md border border-[#839958]/20 mt-6">
+              <iframe 
+                className="w-full h-full" 
+                src="https://www.youtube.com/embed/uB0UWVppRFI" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen>
+              </iframe>
+            </div>
           </div>
 
           {/* Right Roles & Contributions Column */}
@@ -317,6 +329,18 @@ export default function ZanmangLoopyModal({ onClose }: ZanmangLoopyModalProps) {
             <p className="text-sm sm:text-base leading-relaxed text-[#105666] font-medium">
               A high-profile 3D modeling project for the collaborative advertisement campaign between the global sports brand New Balance and the hit character IP Zanmang Loopy. The assets required a seamless blend of contemporary streetwear aesthetics with the iconic, playful silhouette of the character.
             </p>
+
+            <div className="w-full aspect-video rounded-xl overflow-hidden shadow-md border border-[#839958]/20 mt-6">
+              <iframe 
+                className="w-full h-full" 
+                src="https://www.youtube.com/embed/nD0Hl9b9COQ" 
+                title="YouTube video player" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerPolicy="strict-origin-when-cross-origin" 
+                allowFullScreen>
+              </iframe>
+            </div>
           </div>
 
           {/* Right Roles & Contributions Column */}

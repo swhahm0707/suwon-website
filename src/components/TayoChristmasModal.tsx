@@ -69,7 +69,7 @@ export default function TayoChristmasModal({ onClose }: TayoChristmasModalProps)
             2025
           </span>
           
-          <div className="w-full max-w-4xl mx-auto aspect-video mb-12 rounded-xl overflow-hidden shadow-2xl border border-[#F7F4D5]/20">
+          <div className="w-full max-w-4xl mx-auto aspect-video mb-4 rounded-xl overflow-hidden shadow-2xl border border-[#F7F4D5]/20">
             <iframe 
               className="w-full h-full" 
               src="https://www.youtube.com/embed/P8fOQNrH6a0" 
@@ -79,6 +79,9 @@ export default function TayoChristmasModal({ onClose }: TayoChristmasModalProps)
               referrerPolicy="strict-origin-when-cross-origin" 
               allowFullScreen>
             </iframe>
+          </div>
+          <div className="mb-12 text-center text-xs text-[#F7F4D5]/70 font-semibold tracking-wider">
+            Image Credit: <a href="https://www.youtube.com/watch?v=P8fOQNrH6a0" target="_blank" rel="noopener noreferrer" className="hover:text-[#F7F4D5] underline underline-offset-4 decoration-[#F7F4D5]/40 transition-colors">Tayo the Little Bus Youtube</a>
           </div>
 
           <p className="max-w-3xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed font-semibold text-[#F7F4D5]/90">
@@ -116,23 +119,23 @@ export default function TayoChristmasModal({ onClose }: TayoChristmasModalProps)
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div 
                 onClick={() => setActiveLightboxImg({ src: "/tayo_g/tayo_xmas_marry.png", name: "Santa Car Mary Modeling" })}
-                className="bg-white border border-[#839958]/20 rounded-xl p-4 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-zoom-in group"
+                className="bg-white border border-[#839958]/20 rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-zoom-in group"
               >
-                <div className="rounded-lg overflow-hidden relative bg-neutral-50 flex items-center justify-center shadow-inner aspect-[4/3]">
+                <div className="relative flex items-center justify-center">
                   <img loading="lazy" src="/tayo_g/tayo_xmas_marry.png"
                     alt="Santa Car Mary"
-                    className="w-full h-full object-contain rounded-lg transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-auto object-contain mix-blend-multiply transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
               </div>
               <div 
                 onClick={() => setActiveLightboxImg({ src: "/tayo_g/tayo_xmas_villain.png", name: "Thief Car Modeling" })}
-                className="bg-white border border-[#839958]/20 rounded-xl p-4 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-zoom-in group"
+                className="bg-white border border-[#839958]/20 rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-zoom-in group"
               >
-                <div className="rounded-lg overflow-hidden relative bg-neutral-50 flex items-center justify-center shadow-inner aspect-[4/3]">
+                <div className="relative flex items-center justify-center">
                   <img loading="lazy" src="/tayo_g/tayo_xmas_villain.png"
                     alt="Thief Car"
-                    className="w-full h-full object-contain rounded-lg transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-auto object-contain mix-blend-multiply transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
               </div>
@@ -158,23 +161,23 @@ export default function TayoChristmasModal({ onClose }: TayoChristmasModalProps)
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div 
                 onClick={() => setActiveLightboxImg({ src: "/tayo_g/tayo_xmas_marry_facial.png", name: "Santa Car Mary Facial Blend Shapes" })}
-                className="bg-white border border-[#839958]/20 rounded-xl p-4 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-zoom-in group"
+                className="bg-white border border-[#839958]/20 rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-zoom-in group"
               >
-                <div className="rounded-lg overflow-hidden relative bg-neutral-50 flex items-center justify-center shadow-inner aspect-[4/3]">
+                <div className="relative flex items-center justify-center">
                   <img loading="lazy" src="/tayo_g/tayo_xmas_marry_facial.png"
                     alt="Santa Car Mary Facial Blend Shapes"
-                    className="w-full h-full object-contain rounded-lg transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-auto object-contain mix-blend-multiply transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
               </div>
               <div 
                 onClick={() => setActiveLightboxImg({ src: "/tayo_g/tayo_xmas_villain_facial.png", name: "Thief Car Facial Blend Shapes" })}
-                className="bg-white border border-[#839958]/20 rounded-xl p-4 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-zoom-in group"
+                className="bg-white border border-[#839958]/20 rounded-xl overflow-hidden shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 cursor-zoom-in group"
               >
-                <div className="rounded-lg overflow-hidden relative bg-neutral-50 flex items-center justify-center shadow-inner aspect-[4/3]">
+                <div className="relative flex items-center justify-center">
                   <img loading="lazy" src="/tayo_g/tayo_xmas_villain_facial.png"
                     alt="Thief Car Facial Blend Shapes"
-                    className="w-full h-full object-contain rounded-lg transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-auto object-contain mix-blend-multiply transition-transform duration-500 group-hover:scale-105"
                   />
                 </div>
               </div>
