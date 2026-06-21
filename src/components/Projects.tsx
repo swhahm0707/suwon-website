@@ -162,7 +162,7 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
                       {/* Image Credits */}
                       <div className="px-1 text-left">
                         <span className="text-[10px] text-teal-deep/70 font-mono tracking-normal">
-                          Image Credit: <a href="https://www.youtube.com/watch?v=P8fOQNrH6a0" target="_blank" rel="noopener noreferrer" className="underline hover:text-deep-green hover:font-bold transition-all">https://www.youtube.com/watch?v=P8fOQNrH6a0</a>
+                          Image Credit: <a href="https://www.youtube.com/watch?v=P8fOQNrH6a0" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline' }}>Tayo the Little Bus Youtube</a>
                         </span>
                       </div>
                     </div>
