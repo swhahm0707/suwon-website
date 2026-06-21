@@ -77,38 +77,6 @@ export const projectsData: Project[] = [
     ]
   },
   {
-    id: "zanmang-loopy",
-    title: "Zanmang Loopy",
-    category: "3D CHARACTER MODELING",
-    description: "These projects involved producing 3D character assets and props for Zanmang Loopy's official music video and New Balance collaboration campaign, seamlessly blending stylized comedic forms and contemporary streetwear with the character's iconic global brand identity.",
-    imageUrl: "/zLoopy_g/loopy_main1.png",
-    specs: {
-      polygons: "~120,000 tris (optimized)",
-      textures: "4K UDIMs & PBR work",
-      pipeline: "Commercial Character Modeling -> Fur Groom Preservation -> Clothing Architecture -> Campaign Release",
-      softwareUsed: ["Maya", "ZBrush", "Substance Painter", "Arnold"]
-    },
-    backgroundStory: "Zanmang Loopy represents a multifaceted approach to modern character branding across YouTube media and international commercial advertisements. This work includes modeling complex assets for Loopy's official MV, engineering dynamic props that allow extreme stretching, and translating streetwear aesthetics onto the iconic character for collaborative campaigns like New Balance.",
-    breakdownSteps: [
-      {
-        title: "01. 'Apricot-Apron' & 'Plump' Architectures",
-        description: "Executing detailed modeling for specialized hair assets, custom clothing meshes, accessories, and organic body sculpts preserves Loopy's iconic cute aesthetic under extreme deformations."
-      },
-      {
-        title: "02. Volumetric Hair Texturing Density",
-        description: "Implemented a hybrid texturing strategy partially colouring the scalp mesh with the exact hair hue to eliminate voids and empty visual pockets."
-      },
-      {
-        title: "03. Form-Fitting Streetwear & Uniforms",
-        description: "Designed bespoke sports garments and detailed uniform meshes with dynamic hair roller properties tailored to Loopy's unconventional proportions."
-      },
-      {
-        title: "04. Fur Groom & Shading Preservation",
-        description: "Successfully carried out deep skin tone adjustments while maintaining the master file's delicate micro-fur shaders and belly groom distribution."
-      }
-    ]
-  },
-  {
     id: "hit-racer",
     title: "HitRacer",
     category: "3D CHARACTER MODELING & FACIAL BLENDSHAPE",
@@ -137,6 +105,53 @@ export const projectsData: Project[] = [
       {
         title: "04. Intra-Oral Mesh Sync & Anatomy",
         description: "Handled advanced spatial planning of teeth, gums, and tongue models to prevent mesh intersections during active dialogue sequences, maintaining believable anatomy across extreme poses."
+      }
+    ]
+  },
+  {
+    id: "tayo-christmas",
+    title: "TAYO CHRISTMAS MUSICAL",
+    category: "3D CHARACTER MODELING & FACIAL BLENDSHAPE",
+    description: "Participated in the 3D character asset production for the Tayo Christmas Musical animation. The project focused on bringing two newly introduced, highly expressive character vehicles to life - the Santa Car(Mary) and Thief Car(Villain).",
+    imageUrl: "/tayo_g/tayo_main.jpg",
+    specs: {
+      polygons: "N/A",
+      textures: "N/A",
+      pipeline: "Vehicle Modeling -> Facial Blend Shapes",
+      softwareUsed: ["Maya", "ZBrush", "Substance Painter"]
+    },
+    backgroundStory: "",
+    breakdownSteps: []
+  },
+  {
+    id: "zanmang-loopy",
+    title: "Zanmang Loopy",
+    category: "3D CHARACTER MODELING",
+    description: "These projects involved producing 3D character assets and props for Zanmang Loopy's official music video and New Balance collaboration campaign, seamlessly blending stylized comedic forms and contemporary streetwear with the character's iconic global brand identity.",
+    imageUrl: "/zLoopy_g/loopy_main1.png",
+    specs: {
+      polygons: "~120,000 tris (optimized)",
+      textures: "4K UDIMs & PBR work",
+      pipeline: "Commercial Character Modeling -> Fur Groom Preservation -> Clothing Architecture -> Campaign Release",
+      softwareUsed: ["Maya", "ZBrush", "Substance Painter", "Arnold"]
+    },
+    backgroundStory: "Zanmang Loopy represents a multifaceted approach to modern character branding across YouTube media and international commercial advertisements. This work includes modeling complex assets for Loopy's official MV, engineering dynamic props that allow extreme stretching, and translating streetwear aesthetics onto the iconic character for collaborative campaigns like New Balance.",
+    breakdownSteps: [
+      {
+        title: "01. 'Apricot-Apron' & 'Plump' Architectures",
+        description: "Executing detailed modeling for specialized hair assets, custom clothing meshes, accessories, and organic body sculpts preserves Loopy's iconic cute aesthetic under extreme deformations."
+      },
+      {
+        title: "02. Volumetric Hair Texturing Density",
+        description: "Implemented a hybrid texturing strategy partially colouring the scalp mesh with the exact hair hue to eliminate voids and empty visual pockets."
+      },
+      {
+        title: "03. Form-Fitting Streetwear & Uniforms",
+        description: "Designed bespoke sports garments and detailed uniform meshes with dynamic hair roller properties tailored to Loopy's unconventional proportions."
+      },
+      {
+        title: "04. Fur Groom & Shading Preservation",
+        description: "Successfully carried out deep skin tone adjustments while maintaining the master file's delicate micro-fur shaders and belly groom distribution."
       }
     ]
   },

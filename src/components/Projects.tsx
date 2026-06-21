@@ -11,6 +11,7 @@ import LaFranceTruckModal from "./LaFranceTruckModal";
 import HitRacerModal from "./HitRacerModal";
 import ZanmangLoopyModal from "./ZanmangLoopyModal";
 import HappyMessModal from "./HappyMessModal";
+import TayoChristmasModal from "./TayoChristmasModal";
 
 interface ProjectsProps {
   onModalOpenChange?: (id: string | null) => void;
@@ -33,7 +34,7 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
     if (activeFilter === "AI+3D HYBRID") return proj.id === "soomgyul";
     if (activeFilter === "AI") return ["prototypes", "happy-mess"].includes(proj.id);
     if (activeFilter === "3D") {
-      return ["zanmang-loopy", "hit-racer", "newt-niffler", "lafrance-truck"].includes(proj.id);
+      return ["zanmang-loopy", "hit-racer", "tayo-christmas", "newt-niffler", "lafrance-truck"].includes(proj.id);
     }
     return true;
   });
@@ -145,6 +146,26 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
                         </span>
                       </div>
                     </div>
+                  ) : project.id === "tayo-christmas" ? (
+                    <div className={`lg:col-span-7 space-y-3 ${isEven ? "lg:order-1" : "lg:order-2"}`}>
+                      <div
+                        className="overflow-hidden cursor-pointer group shadow-xl relative aspect-video lg:aspect-[4/3] rounded border border-deep-green/5"
+                        onClick={() => setSelectedProject(project)}
+                      >
+                        <img loading="lazy" src="/tayo_g/tayo_main.jpg"
+                          alt="Tayo Christmas Musical"
+                          className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
+                          referrerPolicy="no-referrer"
+                        />
+                        <div className="absolute inset-0 bg-deep-green/10 group-hover:bg-transparent transition-colors duration-500" />
+                      </div>
+                      {/* Image Credits */}
+                      <div className="px-1 text-left">
+                        <span className="text-[10px] text-teal-deep/70 font-mono tracking-normal">
+                          Image Credit: <a href="https://www.youtube.com/watch?v=P8fOQNrH6a0" target="_blank" rel="noopener noreferrer" className="underline hover:text-deep-green hover:font-bold transition-all">https://www.youtube.com/watch?v=P8fOQNrH6a0</a>
+                        </span>
+                      </div>
+                    </div>
                   ) : project.id === "newt-niffler" ? (
                     <div className={`lg:col-span-7 ${isEven ? "lg:order-1" : "lg:order-2"}`}>
                       <div 
@@ -231,6 +252,8 @@ export default function Projects({ onModalOpenChange }: ProjectsProps) {
             <LaFranceTruckModal onClose={() => setSelectedProject(null)} />
           ) : selectedProject.id === "happy-mess" ? (
             <HappyMessModal onClose={() => setSelectedProject(null)} />
+          ) : selectedProject.id === "tayo-christmas" ? (
+            <TayoChristmasModal onClose={() => setSelectedProject(null)} />
           ) : (
             <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
           )
